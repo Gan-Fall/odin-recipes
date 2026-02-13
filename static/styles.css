@@ -1,0 +1,54 @@
+:root {
+  /* Global Scope */
+  --primary-bg-color: #9300c5;
+  --primary-accent: #aaa9ad;
+  --secondary-accent: #d4af37;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+}
+
+/* Landing Page */
+
+.landing-title {
+    font-family: Garamond, "Liberation Serif", sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: auto;
+    margin-top: 33vh;
+    color: var(--primary-accent);
+    font-size: 8vh;
+}
+
+.landing-ul {
+    padding-left: 0;
+    text-align: center;
+}
+
+.landing-li {
+    display: inline-block;
+}
+
+.landing-link {
+    color: var(--secondary-accent);
+    font-size: 2.5vh;
+}
+
+.landing-left-item {
+    border-right-style: solid;
+    border-right-color: var(--primary-accent);
+    border-right-width: 2px;
+    padding-right: 2em;
+}
+
+.landing-middle-item {
+    padding: 0 2em 0;
+}
+
+.landing-right-item {
+    border-left-style: solid;
+    border-left-color: var(--primary-accent);
+    border-left-width: 2px;
+    padding-left: 2em;
+}
