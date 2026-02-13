@@ -4,11 +4,14 @@
   --secondary-bg-color: #3a363b;
   --primary-accent: #aaa9ad;
   --secondary-accent: #d4af37;
+  --div-bg: #ecb3ff;
+  --div-border: #4d0066;
 }
 
 body {
     background-color: var(--primary-bg-color);
     margin: auto;
+    color: var(--secondary-accent);
 }
 
 /* Landing Page */
@@ -65,4 +68,36 @@ body {
 .header a {
     color: var(--secondary-accent);
     font-size: 2em;
+}
+
+.recipe-title {
+    color: var(--secondary-accent);
+    font-family: Garamond, "Liberation Serif", sans-serif;
+    font-size: 4vh;
+}
+
+.recipe-subheader {
+    color: var(--secondary-accent);
+    font-family: Garamond, "Liberation Serif", sans-serif;
+    font-size: 3vh;
+}
+
+.recipe-box {
+    color: var(--secondary-bg-color);
+    background-color: var(--div-bg);
+    border-width: 2px;
+    border-color: var(--div-border);
+    width: 50vw;
+    margin-left: 3vw;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 2vh;
+}
+
+img {
+    margin-left: 3vw;
+}
+
+.recipe-box#bottom-text {
+    margin-bottom: 5vh;
 }
